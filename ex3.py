@@ -17,7 +17,7 @@ try:
             if i < tentativas - 1:
                 print("Tente novamente.")
             else:
-                print("Você esgotou todas as suas tentativas.")
+                print(f"Você esgotou todas as suas tentativas, o numero alvo era {alvo}")
 except ValueError:
     print("O número digitado deve ser um valor inteiro.")
 
