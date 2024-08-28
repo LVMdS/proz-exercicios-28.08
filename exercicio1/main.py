@@ -7,4 +7,4 @@ try:
     else:
         print ("Que pena! voce errou! melhor sorte na proxima")
 except:
-    print("O nimero digitado deve ser um valor inteiro")
+    print("O numero digitado deve ser um valor inteiro")
