@@ -9,3 +9,6 @@ Reescreva seu código para que, em caso de derrota, o jogador seja informado se 
 
 ## Aula 10 - Exercício de revisão 3
 Reescreva seu código para que o usuário tenha 5 chutes
+
+## Aula 10 - Exercício de revisão 4
+Reescreva seu código para que o número alvo seja gerado aleatoriamente (pesquise o método "random.randint")
