@@ -2,7 +2,7 @@ import random
 
 def adivinhacao():
     numero_alvo = random.randint(0, 100)
-    tentativas = 3
+    tentativas = 5
     print("Bem-vindo ao jogo de adivinhação! Você tem 3 tentativas.")
     
     while tentativas > 0:
