@@ -3,7 +3,7 @@ import random
 def adivinhacao():
     numero_alvo = random.randint(0, 100)
     tentativas = 5
-    print("Bem-vindo ao jogo de adivinhação! Você tem 3 tentativas.")
+    print("Bem-vindo ao jogo de adivinhação! Você tem 5 tentativas.")
     
     while tentativas > 0:
         try:
@@ -14,10 +14,12 @@ def adivinhacao():
             elif chute == numero_alvo:
                 print("Parabéns! Você acertou o número!")
                 break
-            elif chute < numero_alvo:
-                print("Tente um número maior.")
             else:
-                print("Tente um número menor.")
+                if tentativas > 1:  # Não mostra a dica se for a última tentativa
+                    if chute < numero_alvo:
+                        print("Tente um número maior.")
+                    else:
+                        print("Tente um número menor.")
             
             tentativas -= 1
             
