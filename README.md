@@ -12,3 +12,7 @@ Reescreva seu código para que o usuário tenha 5 chutes
 
 ## Aula 10 - Exercício de revisão 4
 Reescreva seu código para que o número alvo seja gerado aleatoriamente (pesquise o método "random.randint")
+
+## Aula 10 - Desafios
+Reescreva seu código para que o usuário possa jogar novamente
+Reescreva seu código para que os números de vitórias e derrotas fiquem guardados na memória do programa
